@@ -1,8 +1,8 @@
-import { resolveSRV, resolveTXT } from '../../app/federation/server/functions/resolveDNS';
+import { resolveSRV, resolveTXT } from '../../app/federation-legacy/server/functions/resolveDNS';
 import { settings } from '../../app/settings/server';
 import { SettingValue } from '../../definition/ISetting';
-import { dispatchEvent } from '../../app/federation/server/handler';
-import { getFederationDomain } from '../../app/federation/server/lib/getFederationDomain';
+import { dispatchEvent } from '../../app/federation-legacy/server/handler';
+import { getFederationDomain } from '../../app/federation-legacy/server/lib/getFederationDomain';
 import { eventTypes } from '../../app/models/server/models/FederationEvents';
 import { Users } from '../../app/models/server/raw';
 

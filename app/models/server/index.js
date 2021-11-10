@@ -50,6 +50,9 @@ export { FederationRoomEvents } from './models/FederationRoomEvents';
 export { FederationKeys } from './models/FederationKeys';
 export { FederationServers } from './models/FederationServers';
 
+export { MatrixBridgedRoom } from './models/MatrixBridgedRoom';
+export { MatrixBridgedUser } from './models/MatrixBridgedUser';
+
 export {
 	Base,
 	BaseDb,

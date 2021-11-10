@@ -19,7 +19,7 @@ import {
 import { settings } from '../../../settings/server';
 import { Info, getMongoInfo } from '../../../utils/server';
 import { Migrations } from '../../../migrations/server';
-import { getStatistics as federationGetStatistics } from '../../../federation/server/functions/dashboard';
+import { getStatistics as federationGetStatistics } from '../../../federation-legacy/server/functions/dashboard';
 import { NotificationQueue, Users as UsersRaw } from '../../../models/server/raw';
 import { readSecondaryPreferred } from '../../../../server/database/readSecondaryPreferred';
 import { getAppsStatistics } from './getAppsStatistics';

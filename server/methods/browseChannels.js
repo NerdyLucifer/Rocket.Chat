@@ -8,9 +8,9 @@ import { hasPermission } from '../../app/authorization/server';
 import { Rooms, Users, Subscriptions } from '../../app/models/server';
 import { Rooms as RoomsRaw } from '../../app/models/server/raw';
 import { settings } from '../../app/settings/server';
-import { getFederationDomain } from '../../app/federation/server/lib/getFederationDomain';
-import { isFederationEnabled } from '../../app/federation/server/lib/isFederationEnabled';
-import { federationSearchUsers } from '../../app/federation/server/handler';
+import { getFederationDomain } from '../../app/federation-legacy/server/lib/getFederationDomain';
+import { isFederationEnabled } from '../../app/federation-legacy/server/lib/isFederationEnabled';
+import { federationSearchUsers } from '../../app/federation-legacy/server/handler';
 import { Team } from '../sdk';
 
 const sortChannels = function(field, direction) {

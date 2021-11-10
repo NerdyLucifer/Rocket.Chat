@@ -5,7 +5,7 @@ import { settings } from '../../app/settings/server';
 import { hasPermission } from '../../app/authorization/server';
 import { Users, Rooms } from '../../app/models/server';
 import { createRoom, RateLimiter } from '../../app/lib/server';
-import { addUser } from '../../app/federation/server/functions/addUser';
+import { addUser } from '../../app/federation-legacy/server/functions/addUser';
 
 export function createDirectMessage(usernames, userId, excludeSelf = false) {
 	check(usernames, [String]);
